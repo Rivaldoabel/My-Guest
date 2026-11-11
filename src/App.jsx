@@ -150,4 +150,4 @@ function Empty({title,text}){return <div className="empty"><div className="empty
 function SetupScreen(){return <main className="auth-shell"><section className="auth-card"><Brand/><h2>Configuração necessária</h2><p className="muted">Para iniciar o My Guest, configure as credenciais do Supabase.</p><ol className="setup-list"><li>Crie um projecto no Supabase.</li><li>Copie a URL e a chave anon/public.</li><li>Crie o ficheiro <code>.env</code> com base em <code>.env.example</code>.</li><li>Execute o SQL incluído em <code>supabase/schema.sql</code>.</li></ol></section></main>}
 function pageTitle(p){return ({dashboard:'Painel principal',create:'Criar evento',guests:'Gestão de convidados',scanner:'Controlar entradas'})[p]||'My Guest'}
 function pageLabel(p){return ({dashboard:'PAINEL',create:'EVENTOS',guests:'CONVIDADOS',scanner:'VALIDAÇÃO'})[p]||'PAINEL'}
-export default PageLabel;
+export default App;
